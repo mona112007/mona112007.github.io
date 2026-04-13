@@ -236,7 +236,7 @@ footer a{
         padding: 10px;
     }
     form{
-        width: 400px;
+        width: 300px;
         transition: .5s;
         padding: 20px;
         margin: auto;
@@ -263,7 +263,7 @@ footer a{
         transition: .5s;
     }
     input:hover{
-        width: 200px;
+        width: 150px;
     }
     #con input{
         width: 250px;
