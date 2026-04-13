@@ -262,14 +262,14 @@ footer a{
     input{
         transition: .5s;
         width:140;
-        margin-button:10px;
+        margin-button:5px;
     }
     input:hover{
         width: 150px;
     }
     #con input{
         width: 140px;
-        margin-button:10px;
+        margin-button:5px;
         display:inline-block;
         width:auto;
     }
@@ -279,11 +279,11 @@ footer a{
         display:inline-block;
         width:auto;
     }
-    #con , #bot{
+    #con #bot{
         width: 50px;
         height: 20px;
     }
-    #con , #bot:hover{
+    #con #bot:hover{
         width: 60px;
         height: 30px;
     }
