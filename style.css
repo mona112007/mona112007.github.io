@@ -287,7 +287,13 @@ footer a{
     #do h2{
         text-align: left;
     }
-    #vid{width: 100px;
+    #vid{width: 90px;
+    }
+    #vid2 {
+        width:90px;
+    }
+    #vid ,vid2:hover{
+        width:110px
     }
     #div #do h2{
         text-align: center;
