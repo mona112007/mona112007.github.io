@@ -16,7 +16,7 @@ body{
     font-family: sans-serif;
     height: 100vh;
     background-image:url('web6.jpeg');
-    background-size: 100%;
+    background-size: 100%  100%;
 }
 #body{
     backdrop-filter: blur(10px);
@@ -301,7 +301,7 @@ footer a{
     #vid2 {
         width:50px;
     }
-    #vid , #vid2:hover{
+    #vid , #vid2 :hover{
         width:60px;
     }
     #div #do h2{
