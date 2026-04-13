@@ -236,7 +236,7 @@ footer a{
         padding: 10px;
     }
     form{
-        width: 250px;
+        width: 350px;
         transition: .5s;
         padding: 20px;
         margin: auto;
@@ -246,11 +246,11 @@ footer a{
         padding: 10px;
     }
     textarea{
-        width: 200px;
+        width: 300px;
         transition: .5s;
     }
     textarea:hover{
-        width: 210px;
+        width: 310px;
     }
     #bot{
         width: 50px;
@@ -263,13 +263,15 @@ footer a{
         transition: .5s;
     }
     input:hover{
-        width: 200px;
+        width: 300px;
     }
     #con input{
-        width: 190px;
+        width: 290px;
+        margin:0px;
     }
     input{
-        width:190px
+        width:290px
+        margin:0px;
     }
     #con #bot{
         width: 50px;
@@ -288,10 +290,10 @@ footer a{
     #do h2{
         text-align: left;
     }
-    #vid{width: 40px;
+    #vid{width: 30px;
     }
     #vid2 {
-        width:40px;
+        width:30px;
     }
     #vid ,vid2:hover{
         width:50px
