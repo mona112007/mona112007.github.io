@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+#do{
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}
+h2 pre {
+    font-size: 26px;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background-image:url('web6.jpeg');
+    background-size: 100%  100%;
+}
+#body{
+    backdrop-filter: blur(10px);
+    border:1px solid rgb(192, 192, 192);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 30px;
+}
+header{
+   padding: 15px;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   background-color: rgb(20, 40, 63);
+   border-radius: 30px;
+   padding: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li a{
+    color:darkblue;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: .7s;
+}
+nav ul li a:hover{
+    background-color: darkblue;
+    border-radius: 30px;
+    color:white ;
+}
+
+main{
+    padding: 50px;
+}
+#books{
+    width: 50px;
+    float: right;
+    transition: .4s;
+}
+#books:hover{
+    width: 60px;
+}
+#cat{
+    width: 200px;
+    float: right;
+    transition: .4s;
+}
+#cat:hover{
+    width: 240px;
+}
+#vid{
+    width: 190px;
+    float: right;
+    margin-top: 15px;
+    transition: .5s;
+}
+#vid:hover{
+    width: 200px;
+}
+#vid2{
+    width: 150px;
+    float: right;
+    margin-right: 30px;
+    transition: .5s;
+}
+#vid2:hover{
+    width: 160px;
+}
+section{
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#li {
+    list-style: none;
+}
+footer{
+    color:darkblue ;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-style: dotted;
+}
+td,th{
+    padding: 12px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 251, 255);
+}
+tr{
+    border-bottom: 1px solid black;
+}
+th{
+    background-color:rgb(20, 40, 63) ;;
+    color: rgb(255, 255, 255);
+}
+h2{
+    padding: 5px;
+}
+tr:hover td{
+    color: rgb(255, 255, 255);
+    background-color:rgb(20, 40, 63);
+}
+tr{
+
+}
+#bot,input,textarea{
+    transition: .3s;
+}
+#bot:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 120px;
+    height: 30px;
+}
+input:hover{
+    width: 320px;
+    height: 40px;
+    background-color: rgb(248, 227, 230);
+}
+textarea:hover{
+    width: 400px;
+    height: 100px;
+    background-color:  rgb(248, 227, 230);
+}
+form{
+    background-color:  rgb(20, 40, 63);
+    border: solid 10px black;
+    border-radius: 15px;
+    width: 600px;
+    margin:auto ;
+}
+fieldset{
+    margin: 10px;
+}
+legend{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+div{
+    text-align: left;
+}
+div input{
+    margin: 10px;
+    width: 50%;
+    height: 30px;
+}
+fieldset{
+    border-style: none;
+}
+textarea,input{
+    margin: 10px;
+    border-radius: 10px;
+    width:370px ;
+}
+#div{
+    color: darkblue;
+}
+#bot{
+    width: 100px;
+}
+#div ul li{
+margin: 20px;
+list-style: none;
+}
+pre{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+pre a{
+    transition: .5s;
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(60, 16, 16);
+}
+pre a:hover{
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+}
+#add{
+    margin-top: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: darkblue;
+}
+@media (max-width:768px){
+    nav ul{
+        flex-direction: column;
+        align-items: left;
+    }
+    section{
+        text-align: left;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    main{
+        padding: 20px;
+    }
+    th,td{
+        border: 1px solid black;
+    }
+    h2{
+        padding: 10px;
+    }
+    form{
+        width: 400px;
+        transition: .5s;
+        padding: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    fieldset{
+        padding: 10px;
+    }
+    textarea{
+        width: 300px;
+        transition: .5s;
+    }
+    textarea:hover{
+        width: 315px;
+    }
+    #bot{
+        width: 50px;
+        transition: .5s;
+    }
+    #bot:hover{
+        width: 60px;
+    }
+    input{
+        transition: .5s;
+    }
+    input:hover{
+        width: 200px;
+    }
+    #con input{
+        width: 250px;
+    }
+    #con #bot{
+        width: 50px;
+        height: 20px;
+    }
+    #con #bot:hover{
+        width: 60px;
+        height: 30px;
+    }
+    #cat{
+        width: 100px;
+    }
+    #cat:hover{
+        width: 110px;
+    }
+    #do h2{
+        text-align: left;
+    }
+    #vid{width: 100px;
+    }
+    #div #do h2{
+        text-align: center;
+    }
+    nav ul li{
+        text-align: left;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    nav ul{
+        flex-direction: column;
+        align-items: left;
+    }
+    section{
+        text-align: left;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    main{
+        padding: 20px;
+    }
+    th,td{
+        border: 1px solid black;
+    }
+    h2{
+        padding: 10px;
+    }
+    form{
+        width: 600px;
+        transition: .5s;
+        padding: 20px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    fieldset{
+        padding: 10px;
+    }
+    textarea{
+        width: 400px;
+        transition: .5s;
+    }
+    textarea:hover{
+        width: 500px;
+    }
+    #bot{
+        width: 50px;
+        transition: .5s;
+    }
+    #bot:hover{
+        width: 60px;
+    }
+    input{
+        transition: .5s;
+    }
+    input:hover{
+        width: 350px;
+    }
+    #con input{
+        width: 250px;
+    }
+    #con #bot{
+        width: 50px;
+        height: 20px;
+    }
+    #con #bot:hover{
+        width: 60px;
+        height: 30px;
+    }
+    #do h2{
+        text-align: left;
+    }
+    #div #do h2{
+        text-align: center;
+    }
+    nav ul li{
+        text-align: left;
+    }
+}
