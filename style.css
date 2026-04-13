@@ -236,7 +236,7 @@ footer a{
         padding: 10px;
     }
     form{
-        width: auto;
+        width: 250px;
         transition: .5s;
         padding: 20px;
         margin: auto;
