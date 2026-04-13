@@ -16,7 +16,7 @@ body{
     font-family: sans-serif;
     height: 100vh;
     background-image:url('web6.jpeg');
-    background-size: 100%  100%;
+    background-size: 100%;
 }
 #body{
     backdrop-filter: blur(10px);
@@ -270,6 +270,8 @@ footer a{
     #con input{
         width: 140px;
         margin-button:10px;
+        display:inline-block;
+        width:auto;
     }
     input{
         width:140px
