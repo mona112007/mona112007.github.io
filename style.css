@@ -246,11 +246,11 @@ footer a{
         padding: 10px;
     }
     textarea{
-        width: 200px;
+        width: 180px;
         transition: .5s;
     }
     textarea:hover{
-        width: 210px;
+        width: 190px;
     }
     #bot{
         width: 50px;
@@ -261,9 +261,11 @@ footer a{
     }
     input{
         transition: .5s;
+        width:170px;
+        margin-button:10px;
     }
     input:hover{
-        width: 190px;
+        width: 180px;
     }
     #con input{
         width: 190px;
