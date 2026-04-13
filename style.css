@@ -236,7 +236,7 @@ footer a{
         padding: 10px;
     }
     form{
-        width: 300px;
+        width: 150px;
         transition: .5s;
         padding: 20px;
         margin: auto;
@@ -246,11 +246,11 @@ footer a{
         padding: 10px;
     }
     textarea{
-        width: 300px;
+        width: 100px;
         transition: .5s;
     }
     textarea:hover{
-        width: 315px;
+        width: 110px;
     }
     #bot{
         width: 50px;
@@ -263,11 +263,13 @@ footer a{
         transition: .5s;
     }
     input:hover{
-        width: 150px;
+        width: 100px;
     }
     #con input{
-        width: 250px;
+        width: 90px;
     }
+    input{
+        90px}
     #con #bot{
         width: 50px;
         height: 20px;
