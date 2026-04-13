@@ -221,6 +221,9 @@ footer a{
         flex-direction: column;
         align-items: left;
     }
+    #body{
+        height:100vh;
+    }
     section{
         text-align: left;
         padding: 0px;
@@ -315,6 +318,9 @@ footer a{
     nav ul{
         flex-direction: column;
         align-items: left;
+    }
+    #body{
+        height:100vh;
     }
     section{
         text-align: left;
