@@ -223,11 +223,18 @@ footer a{
     }
     #body{
         height:100vh;
+        display:flex;
+        flex-direction:column;
+        align-item:flex-start;
+        padding:10px;
+        width:fit-content;
+        min-width:250px;
     }
     section{
         text-align: left;
         padding: 0px;
         margin-bottom: 10px;
+        width
     }
     main{
         padding: 20px;
