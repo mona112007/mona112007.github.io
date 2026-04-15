@@ -299,10 +299,9 @@ footer a{
     #do h2{
         text-align: left;
     }
-    #vid{width: 50px;
-    }
-    #vid2 {
+    #vid2 ,#vid {
         width:50px;
+        transition:.3s;
     }
     #vid , #vid2 :hover{
         width:60px;
