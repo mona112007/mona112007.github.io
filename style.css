@@ -223,7 +223,8 @@ footer a{
     }
     #body{
         height:100vh;
-        margin:10px;
+        margin-right:10px;
+        margin-left:10px;
     }
     section{
         text-align: left;
