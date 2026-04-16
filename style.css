@@ -15,7 +15,7 @@ h2 pre {
 body{
     font-family: sans-serif;
     height: 100vh;
-    background-color:rgb(211, 211, 247);
+    background-color: rgb(211, 211, 247);
     background-size: 100%  100%;
 }
 #body{
@@ -299,9 +299,10 @@ footer a{
     #do h2{
         text-align: left;
     }
-    #vid2 ,#vid {
+    #vid{width: 50px;
+    }
+    #vid2 {
         width:50px;
-        transition:.3s;
     }
     #vid , #vid2 :hover{
         width:60px;
