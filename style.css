@@ -232,6 +232,9 @@ footer a{
     main{
         padding: 20px;
     }
+    footer{
+        margin-top:15px;
+    }
     th,td{
         border: 1px solid black;
     }
